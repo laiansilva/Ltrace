@@ -1,3 +1,31 @@
+   This program receives a list of files by parameters and shows on the screen a frequency histogram of each letter in
+   descending order for each of the files.
+   
+   The implementation was through a structure of the type: 
+      
+      typedef struct  {
+        std::string name; 
+        std::string Letras="abcdefghijklmnopqrstuvwxyz";
+        int num[26]={};   
+      } arquivo;
+      
+   where the variable name stores the names of the file, the variable Letters stores the letters of the alphabet that will be used in
+   the comparison with the text to be analyzed, and in a store the number of times that the corresponding letter appeared in the analyzed
+   text.
+   
+   The program has the following functions **init**, **verify**, **sort**, where:
+ 
+      The "start" function is responsible for starting the structure with the names of the files passed to the executable program
+      the print function is responsible for printing the name of the analyzed file and the letters that each one has in descending order  
+      both functions are in the include folder and are added by the header "init.hpp"
+      The functions check and sort are found in the include directory and are added by the header "calc.hpp"
+      "verifica" has the function of opening the file and reading line by line and checking the number of characters read in each
+      line. The "Sort" function uses the Bubble sort algorithm to sort the letter numbers in descending order.
+   The program can be run with ./text_histogram <name of the text file> and as many files as the user needs can be added.
+
+
+
+
 The Linux Kernel is provided under:
 
 	SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note
