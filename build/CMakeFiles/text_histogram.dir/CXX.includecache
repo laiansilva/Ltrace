@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/calc.cpp
+iostream
+-
+cctype
+-
+fstream
+-
+string
+-
+struct.hpp
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/struct.hpp
+
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/calc.hpp
+
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/init.cpp
+iostream
+-
+cctype
+-
+fstream
+-
+string
+-
+struct.hpp
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/struct.hpp
+
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/init.hpp
+
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/struct.hpp
+string
+-
+
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/text_histogram.cpp
+fstream
+-
+string
+-
+struct.hpp
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/struct.hpp
+init.hpp
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/init.hpp
+calc.hpp
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/include/calc.hpp
+

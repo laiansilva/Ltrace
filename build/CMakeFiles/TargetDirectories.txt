@@ -1,0 +1,3 @@
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/build/CMakeFiles/rebuild_cache.dir
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/build/CMakeFiles/edit_cache.dir
+/home/laian/Área de Trabalho/Livros/Livros programaçao/c_c++/Ltrace/build/CMakeFiles/text_histogram.dir
